@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/blog.css">
         <title>Hfasah Blogs</title>
     </head>
-  
+<body>  
 <ul>
   {% for post in site.posts %}
     <li>
@@ -17,3 +17,5 @@
     </li>
   {% endfor %}
 </ul>
+</body>    
+</html>
